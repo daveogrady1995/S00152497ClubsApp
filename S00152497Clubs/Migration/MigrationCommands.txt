@@ -1,0 +1,3 @@
+enable-migrations -ContextTypeName S00152497Clubs.Models.ClubsModel.ClubsContext -MigrationsDirectory "Migration\ClubMigrations"
+add-migration -ConfigurationTypeName S00152497Clubs.Migration.ClubMigrations.Configuration "Initial"
+ update-database -ConfigurationTypeName S00152497Clubs.Migration.ClubMigrations.Configuration
